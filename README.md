@@ -39,57 +39,6 @@ ai-content-template
 圖片 3：https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80
 ```
 
-## 給 Gemini 的 Prompt 範例
-
-```text
-請根據以下品牌資料，產生一份可以放進網站的 JSON。
-
-品牌名稱：AI 協作產品經理實戰課
-目標對象：想學會使用 AI 整理需求、產出文件與規劃網站內容的初學者
-網站目的：介紹課程價值，讓使用者了解課程特色並願意諮詢
-語氣：專業、清楚、對初學者友善
-
-請務必符合以下 JSON 格式：
-
-{
-  "hero": {
-    "kicker": "",
-    "title": "",
-    "subtitle": "",
-    "cta": ""
-  },
-  "featuresTitle": "",
-  "features": [
-    {
-      "title": "",
-      "description": "",
-      "imageUrl": "",
-      "imageAlt": ""
-    }
-  ],
-  "faqTitle": "",
-  "faq": [
-    {
-      "question": "",
-      "answer": ""
-    }
-  ],
-  "contact": {
-    "title": "",
-    "description": ""
-  },
-  "footer": ""
-}
-
-限制：
-1. features 請產生 3 筆。
-2. faq 請產生 3 筆。
-3. 每個 description 不超過 40 個中文字。
-4. `imageUrl` 請使用可公開讀取的圖片網址。
-5. `imageAlt` 請描述圖片內容，不要寫成「圖片」或「照片」。
-6. 不要加入 JSON 註解。
-7. 不要在 JSON 外加說明文字。
-```
 
 ## 檢查清單
 
