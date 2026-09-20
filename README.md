@@ -55,3 +55,4 @@ ai-content-template
 - Console 是否有錯誤訊息？
 
 從電腦新增的文字。
+從github新增的文字。
